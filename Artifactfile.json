@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "JDK",
+    "publisher": "ALM Rangers",
+    "description": "Install Spark 2.3.1 on Ubuntu 16.04 VM in Microsoft Azure.",
+    "tags": [
+      "JDK",
+      "Linux",
+      "JAVA"
+    ],
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
+    "targetOsType": "Linux",
+	
+  "runCommand": {
+    "commandToExecute": "['SparkUbuntuArtifact.sh']"
+  }
+}
