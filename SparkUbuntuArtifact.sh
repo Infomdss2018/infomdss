@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # update ubuntu
-sudo apt-get update
+sudo apt-get update -y
 
 # install java
 sudo apt-get -y install default-jdk
