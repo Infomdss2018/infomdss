@@ -18,4 +18,4 @@ cd /usr/local/spark
 
 # start spark
 export SPARK_HOME=/usr/local/spark
-$SPARK_HOME/sbin/start-master.sh
+sudo $SPARK_HOME/sbin/start-master.sh
