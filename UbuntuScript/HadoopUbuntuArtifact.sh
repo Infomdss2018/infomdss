@@ -18,7 +18,6 @@ tar -xvf hadoop-3.1.1.tar.gz
 # install hadoop
 sudo mv hadoop-3.1.1 /usr/local/hadoop
 
-
 # test 1: version
 cd /usr/local/hadoop
 bin/hadoop version
