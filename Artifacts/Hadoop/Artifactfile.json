@@ -1,0 +1,18 @@
+{
+    "title": "Hadoop On Ubuntu",
+    "publisher": "rebremer",
+    "description": "Install Hadoop 3.1.1 on Ubuntu 16.04 VM in Microsoft Azure.",
+    "tags": [
+      "JDK",
+      "Linux",
+      "JAVA",
+      "Spark",
+      "Ubuntu"
+    ],
+    "iconUri": "https://en.wikipedia.org/wiki/Apache_Hadoop#/media/File:Hadoop_logo_new.svg",
+    "targetOsType": "Linux",
+	
+  "runCommand": {
+    "commandToExecute": "['HadoopUbuntuArtifact.sh']"
+  }
+}
