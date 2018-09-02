@@ -8,7 +8,7 @@ sudo apt-get install ssh -y
 sudo apt-get install rsync -y
 
 # install java
-sudo apt-get install default-jdk -y
+sudo apt-get install openjdk-8-jre -y
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
 
 # download hadoop

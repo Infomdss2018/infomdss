@@ -4,7 +4,7 @@
 sudo apt-get update -y
 
 # install java
-sudo apt-get -y install default-jdk
+sudo apt-get -y install openjdk-8-jre
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
 
 # download spark
