@@ -11,6 +11,6 @@
     "targetOsType": "Linux",
 	
   "runCommand": {
-    "commandToExecute": "['HadoopUbuntuArtifact.sh']"
+    "commandToExecute": "['sh HadoopUbuntuArtifact.sh']"
   }
 }
