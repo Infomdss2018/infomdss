@@ -18,7 +18,6 @@ tar -xvf hadoop-3.1.1.tar.gz
 # install hadoop
 sudo mv hadoop-3.1.1 /usr/local/hadoop
 
-
 # test 1: version
 cd /usr/local/hadoop
 bin/hadoop version
@@ -31,3 +30,7 @@ cat output/*
 
 # test 3: HDFS
 bin/hdfs classpath
+
+# finally, set environment variables in /etc/profile.d such that user does not have to execute the export commands
+cd /etc/profile.d
+sudo wget https://raw.githubusercontent.com/rebremer/AzureDevTestLabHadoopSparkOnUbuntuScript/master/Artifacts/Hadoop/setenvvarHadoop.sh
