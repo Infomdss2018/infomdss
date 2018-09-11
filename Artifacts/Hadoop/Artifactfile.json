@@ -1,18 +1,16 @@
 {
-    "title": "Hadoop On Ubuntu",
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Hadoop",
     "publisher": "rebremer",
     "description": "Install Hadoop 3.1.1 on Ubuntu 16.04 VM in Microsoft Azure.",
     "tags": [
       "JDK",
-      "Linux",
-      "JAVA",
-      "Spark",
-      "Ubuntu"
+      "Linux"
     ],
     "iconUri": "https://en.wikipedia.org/wiki/Apache_Hadoop#/media/File:Hadoop_logo_new.svg",
     "targetOsType": "Linux",
 	
   "runCommand": {
-    "commandToExecute": "['HadoopUbuntuArtifact.sh']"
+    "commandToExecute": "['sh HadoopUbuntuArtifact.sh']"
   }
 }

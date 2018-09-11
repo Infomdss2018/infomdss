@@ -1,0 +1,18 @@
+{
+    "title": "Set export var On Ubuntu",
+    "publisher": "rebremer",
+    "description": "Set environment variables correctly such that user does not have to do export abc themselves after they logged in",
+    "tags": [
+      "JDK",
+      "Linux",
+      "JAVA",
+      "Spark",
+      "Ubuntu"
+    ],
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
+    "targetOsType": "Linux",
+	
+  "runCommand": {
+    "commandToExecute": "['exportvartest.sh']"
+  }
+}
