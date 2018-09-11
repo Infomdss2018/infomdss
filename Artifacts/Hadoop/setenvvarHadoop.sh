@@ -1,1 +1,1 @@
-export testrb=42
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
