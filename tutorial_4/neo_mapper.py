@@ -29,6 +29,3 @@ for line in sys.stdin:
     print("{0}\t{1}".format(remove_line, line))
 
     # store line into prev_line
-
-# print the last line of the file
-print("{0}\t{1}".format(remove_line, prev_line))
