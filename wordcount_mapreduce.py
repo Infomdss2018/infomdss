@@ -12,8 +12,8 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("wordCount").getOrCreate()
 sc = spark.sparkContext
 
-text_RDD = sc.textFile()
+text_RDD = sc.textFile("/home/labuser/wordcount_spark/testfile")
 pairs_RDD = text_RDD.flatMap(split_words).map(create_pair)
 wordcounts_RDD = pairs_RDD.reduceByKey(sun_counts, numPartitions = 1)
 
-wordcounts_RDD.saveAsTextFile();
+wordcounts_RDD.saveAsTextFile("/home/labuser/wordcount_spark/output");
