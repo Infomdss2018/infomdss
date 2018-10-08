@@ -9,7 +9,7 @@ def sun_counts(a, b):
 
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appname("appName").getOrCreate()
+spark = SparkSession.builder.appName("appName").getOrCreate()
 sc = spark.sparkContext
 
 text_RDD = sc.textFile()
